@@ -1,0 +1,41 @@
+/**
+ * Unu Ulm theme for reveal.js.
+ *
+ * Copyright (C) 2014 Fabian Schneider
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../../lib/font/league_gothic-webfont.eot');
+	src: url('../../lib/font/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../lib/font/league_gothic-webfont.woff') format('woff'),
+		 url('../../lib/font/league_gothic-webfont.ttf') format('truetype'),
+		 url('../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #FFFFFF;
+$headingColor: #A32638;
+$mainColor: #000000;
+$headingTextShadow: 0px 0px 6px rgba(0,0,0,0.2);
+
+$linkColor: #A32638;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
