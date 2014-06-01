@@ -3,13 +3,14 @@
  *
  * Copyright (C) 2014 Fabian Schneider
  */
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@font-face {
-  font-family: 'League Gothic';
-  src: url("../../lib/font/league_gothic-webfont.eot");
-  src: url("../../lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league_gothic-webfont.woff") format("woff"), url("../../lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+.uulogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  height: 170px;
+  margin-top: 1em;
+  margin-right: 1em; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -19,7 +20,7 @@ body {
   background-color: white; }
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -41,9 +42,9 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #a32638;
-  font-family: "League Gothic", Impact, sans-serif;
+  font-family: "Arial", sans-serif, Impact;
   line-height: 0.9em;
-  letter-spacing: 0.02em;
+  letter-spacing: 0em;
   text-transform: uppercase;
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
